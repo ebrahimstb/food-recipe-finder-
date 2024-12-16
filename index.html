@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holiday Recipe Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EBRAHIM Holiday Recipe Finder 🎄</h1>
+    <p>Discover festive recipes to spice up your holiday!</p>
+    <input type="text" id="search-bar" placeholder="Search for a recipe...">
+    <button id="search-button">Find Recipes</button>
+  </header>
+
+  <main>
+    <section id="preloaded-recipes">
+      <h2>Festive Recipes</h2>
+      <div class="recipe-grid" id="recipes-container">
+        <!-- Preloaded recipes will be here -->
+      </div>
+    </section>
+
+    <section id="search-results" class="hidden">
+      <h2>Search Results</h2>
+      <div class="recipe-grid" id="results-container">
+        <!-- Search results will be displayed here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Follow me on social media: <strong>@ebrahim_oat</strong></p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
